@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="WindowToJacobsSoul" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="Jacobs fede knap" HorizontalAlignment="Left" Margin="138,180,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
