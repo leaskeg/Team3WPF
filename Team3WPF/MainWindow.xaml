@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Jacobs Soul" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" Height="81" Width="316" BorderBrush="Black" Foreground="White" Background="Black"/>
+        <Button Content="Jacobs Soul" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" Height="81" Width="316" BorderBrush="Red" Foreground="White" Background="Black"/>
 
     </Grid>
 </Window>
