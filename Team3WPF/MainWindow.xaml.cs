@@ -29,6 +29,7 @@ namespace Team3WPF
         {
             WindowToJacobsSoul win2 = new WindowToJacobsSoul();
             win2.Show();
+            
         }
     }
 }

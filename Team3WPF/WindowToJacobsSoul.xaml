@@ -7,12 +7,7 @@
         mc:Ignorable="d"
         Title="WindowToJacobsSoul" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="68*"/>
-            <RowDefinition Height="149*"/>
-        </Grid.RowDefinitions>
-        <Label Content="Jacobs fede knap" HorizontalAlignment="Left" Margin="138,44,0,0" VerticalAlignment="Top" BorderBrush="{DynamicResource {x:Static SystemColors.InactiveSelectionHighlightBrushKey}}" Background="#FFFF0202" Grid.Row="1"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="138,0,0,0" Grid.Row="1" VerticalAlignment="Center" Height="108" Width="101" Click="Button_Click"/>
+        <Label Content="Jacobs fede knap" HorizontalAlignment="Left" Margin="138,180,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
