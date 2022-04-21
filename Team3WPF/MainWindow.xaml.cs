@@ -24,5 +24,11 @@ namespace Team3WPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            WindowToJacobsSoul win2 = new WindowToJacobsSoul();
+            win2.Show();
+        }
     }
 }
