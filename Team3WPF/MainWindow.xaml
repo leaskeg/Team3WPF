@@ -7,7 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Jacobs Soul" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" Height="81" Width="316" BorderBrush="Black" Foreground="White" Background="Black"/>
+        <Button Content="Jacobs Soul" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" Height="81" Width="316" BorderBrush="Red" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFBD5252" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>
